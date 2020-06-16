@@ -1,0 +1,10 @@
+$Locations = "eastus", "westus", "central"
+
+Add-AzureRmAccount
+Select-AzureRmSubscription -SubscriptionName "SubscriptionName"
+
+foreach($rg in $Locations)
+{
+    New-AzureRmResourceGroup -Name my-test-candidate-$rg -Location $rg
+
+}
