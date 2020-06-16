@@ -10,4 +10,3 @@ One of the easiest and least expensive ways to migrate an existing workload to t
 •	Allows you to migrate your on-premises identity services components such as Active Directory to the cloud along with the application.
 
 ![GitHub Logo](/ntk.png)
-Format: ![Alt Text](url)
